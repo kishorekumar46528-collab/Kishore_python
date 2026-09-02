@@ -115,7 +115,44 @@ if mark>=60:
     else:
         print("addmission not approved")
 else:
-    print("addmission not approved") '''
+    print("addmission not approved") 
+
+#Employee attendance
+attendance=["present","absent","present","absent","present"]
+for status in attendance:
+    if status=="present":
+        print("employee is present") 
+
+#security monitoring
+while True:
+    login=input("enter login status:")
+    if login=="suspicious":
+        print("alert")
+        print("monitoring") 
+
+#testing multiple inputs
+inputs=[10,20,-5,30,40]
+for value in inputs:
+    if value<0:
+        continue
+    print("testing:",value)  
+
+#incomplete function
+def payment():
+    pass 
+
+#interview senerio
+for i in range(100):
+    print("processing student") 
+
+#tricky senario
+while True:
+    item=input("enter item:")
+    if item=="exist":
+        break
+    if item=="unavailable":
+        continue
+    print("order placed:",item)
 
 
         
